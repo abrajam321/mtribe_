@@ -1,0 +1,105 @@
+
+/* Aumentar el espacio entre los elementos */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  header {
+    background-color: rgb(29, 25, 25);
+    color: #fff;
+    padding: 20px 0;}
+
+  .container {
+    max-width: 1200px;
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+
+  
+  /* Centrar el logotipo */
+  .logo {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position:absolute;
+    top: 2;
+  }
+  
+  
+  /* Agregar un menú de navegación */
+  nav {
+    float: top;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Agregar separadores entre secciones */
+    .section {
+        margin-bottom: 30px;
+        padding: 20px;}
+        
+          nav ul {
+            list-style: none; /* Elimina los viñetas predeterminadas de la lista */
+            margin: 0; /* Elimina los márgenes predeterminados de la lista */
+            padding: 0; /* Elimina el relleno predeterminado de la lista */
+            display: flex; /* Utiliza flexbox para el diseño */
+            justify-content: space-between; /* Distribuye el espacio entre los enlaces */
+            align-items: center; /* Centra los enlaces verticalmente */
+          }
+          
+          /* Estilos de los elementos de la lista de navegación */
+          nav li {
+            display: inline-block; /* Hace que los elementos de la lista se comporten como elementos en línea */
+            margin-right: 20px; /* Agrega espacio horizontal entre cada elemento de la lista */
+          }
+          
+          /* Estilos de los enlaces de navegación */
+          nav a {
+            text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+            color: rgb(255, 255, 255); /* Establece el color del texto del enlace en un gris oscuro */
+            font-size: 16px; /* Ajusta el tamaño de la fuente del texto del enlace */
+            font-weight: 500; /* Establece el grosor de la fuente en medio para una apariencia un poco más audaz */
+            padding: 10px 20px; /* Agrega relleno alrededor del texto del enlace para un mejor espaciado */
+            border-radius: 5px; /* Agrega esquinas redondeadas a los enlaces para una apariencia más suave */
+            transition: background-color 0.3s ease; /* Agrega un efecto de transición suave al pasar el cursor sobre el enlace */
+          }
+          nav a:hover {
+            background-color: #227681; 
+          }
+          .oip{
+    
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            position:relative;
+            top: 30px;
+            left: 350px;
+          }
